@@ -187,29 +187,43 @@ main .video-cuatro{
 }
 @media screen and (min-width:600px){
  main .contenedor{
-    height:93vh ;
+    height:100% ;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr)
+ }
+ main .video-cuatro{
+    margin-bottom: 0;
+}
+main .video-dos, .video-tres, .video-cuatro{
+    height:35rem;
  }
 }
 
 @media screen and (min-width:992px){
-    #main-video{
-        height: 130vh;
-    }
     main .contenedor{
-    height: 124vh;
+    height:100%;
        grid-template-columns: repeat(3, 1fr);
-       grid-template-rows: repeat(2, 1fr);
+       grid-template-rows: repeat(3, 1fr);
        margin: 3rem;
+
     }
 
-    main .contenedor .video-uno{
+    main .video-uno{
         grid-column: span 3;
-        height: 850px;
+        grid-row: span 2;
         margin:0;
     }
+    main .video-cuatro{
+        margin-bottom: 0;
+    }
+    main .video-dos, .video-tres, .video-cuatro{
+       height:40rem;
+    }
    }
+
+
+
+
 
    main .mi-foto{
     width: 100%;
