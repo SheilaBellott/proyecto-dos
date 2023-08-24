@@ -67,7 +67,7 @@ main .title-sbf{
     display: inline;
     font-size: 40px;
     position: relative;
-    bottom: 880px;
+    bottom: 97%;
     left: 40px;
 
 }
@@ -75,7 +75,7 @@ main .title-sbf-dos{
     display: inline;
     font-size: 20px;
     position: relative;
-    bottom: 860px;
+    bottom: 94%;
     right: 60px;
 }
 
