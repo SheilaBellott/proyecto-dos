@@ -1,0 +1,35 @@
+@import "utils/mixin";
+@import "utils/variables";
+@import "utils/extend";
+@import "base/reset";
+@import "layout/header";
+@import "layout/footer";
+@import "views/index";
+@import "views/galeria";
+@import "views/videos";
+@import "views/sobremi";
+@import "views/contacto";
+
+body {
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Noto Sans JP", sans-serif;
+  font-family: "PT Serif", serif;
+}
+
+.body-gradient {
+  background-image: linear-gradient(
+    to bottom,
+    #f2e0fb,
+    #e6cff1,
+    #d9bfe7,
+    #cdafdd,
+    #c09fd3
+  );
+}
+.text-center {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 20px;
+  background-color: #bb90d6;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,29 @@
+main {
+  height: 100vh;
+}
+
+main .img-italy {
+  display: none;
+}
+
+main .main-img {
+  @include medidas-base;
+}
+main .title-sbf {
+  @include tittle-sbf(40px, 97%);
+  left: 20px;
+}
+main .title-sbf-dos {
+  @include tittle-sbf(20px, 94%);
+  right: 100px;
+}
+@media screen and (min-width: 600px) {
+  main .main-img {
+    display: none;
+  }
+
+  main .img-italy {
+    display: block;
+    @include medidas-base;
+  }
+}

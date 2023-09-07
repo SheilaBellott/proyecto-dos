@@ -1,0 +1,40 @@
+header {
+  font-size: 2.2rem;
+
+  .bg-pink {
+    background-color: $color-nav-footer;
+  }
+
+  nav {
+    img {
+      width: 10vh;
+    }
+
+    .menu-center {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1px solid #03030318;
+
+      ul {
+        align-items: center;
+
+        li {
+          a:hover {
+            color: rgba(149, 92, 170, 0.719);
+          }
+
+          a:active {
+            color: rgb(185, 151, 221);
+          }
+        }
+      }
+    }
+    @media screen and (min-width: 992px) {
+      .menu-center {
+        align-items: end;
+        border-top: none;
+      }
+    }
+  }
+}
