@@ -33,34 +33,11 @@
       object-fit: cover;
       padding: 5px;
     }
-    div .italy,
-    div .span {
-      display: grid;
+    .span-tablet {
       grid-column: span 2;
     }
-    .france-span {
-      display: grid;
-      grid-column: span 2;
-    }
-    .france1 {
-      display: grid;
+    .tablet-row {
       grid-row: span 2;
-    }
-    .rome-span {
-      display: grid;
-      grid-column: span 2;
-    }
-    .rome1-span {
-      display: grid;
-      grid-column: span 2;
-    }
-    .brs-span {
-      display: grid;
-      grid-row: span 2;
-    }
-    .brs1-span {
-      display: grid;
-      grid-column: span 2;
     }
   }
   @media screen and (min-width: 1024px) {
@@ -81,35 +58,15 @@
       object-fit: cover;
       padding: 5px;
     }
-    div .italy {
-      display: grid;
-      grid-column: span 3;
-    }
-    .italy-uno {
-      display: grid;
+    .span-desktop {
       grid-column: span 2;
+    }
+    .span-tres {
+      grid-column: span 3;
     }
 
-    .france2 {
-      grid-column: span 2;
-    }
-    .france-span {
-      grid-column: span 3;
-    }
     #france-1 {
       height: 100%;
-    }
-    .rome-span {
-      display: grid;
-      grid-column: span 2;
-    }
-    .rome1-span {
-      display: grid;
-      grid-column: span 3;
-    }
-    .rome3 {
-      display: grid;
-      grid-column: span 2;
     }
     #brs-uno {
       height: 100%;

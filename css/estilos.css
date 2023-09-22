@@ -116,28 +116,10 @@ main {
       height: 100%;
       object-fit: cover;
       padding: 5px; }
-    #main-galeria div .italy,
-    #main-galeria div .span {
-      display: grid;
+    #main-galeria .span-tablet {
       grid-column: span 2; }
-    #main-galeria .france-span {
-      display: grid;
-      grid-column: span 2; }
-    #main-galeria .france1 {
-      display: grid;
-      grid-row: span 2; }
-    #main-galeria .rome-span {
-      display: grid;
-      grid-column: span 2; }
-    #main-galeria .rome1-span {
-      display: grid;
-      grid-column: span 2; }
-    #main-galeria .brs-span {
-      display: grid;
-      grid-row: span 2; }
-    #main-galeria .brs1-span {
-      display: grid;
-      grid-column: span 2; } }
+    #main-galeria .tablet-row {
+      grid-row: span 2; } }
   @media screen and (min-width: 1024px) {
     #main-galeria .img-grid {
       margin: 30px 150px; }
@@ -152,27 +134,12 @@ main {
       height: 35rem;
       object-fit: cover;
       padding: 5px; }
-    #main-galeria div .italy {
-      display: grid;
-      grid-column: span 3; }
-    #main-galeria .italy-uno {
-      display: grid;
+    #main-galeria .span-desktop {
       grid-column: span 2; }
-    #main-galeria .france2 {
-      grid-column: span 2; }
-    #main-galeria .france-span {
+    #main-galeria .span-tres {
       grid-column: span 3; }
     #main-galeria #france-1 {
       height: 100%; }
-    #main-galeria .rome-span {
-      display: grid;
-      grid-column: span 2; }
-    #main-galeria .rome1-span {
-      display: grid;
-      grid-column: span 3; }
-    #main-galeria .rome3 {
-      display: grid;
-      grid-column: span 2; }
     #main-galeria #brs-uno {
       height: 100%;
       grid-column: span 2; } }
@@ -250,9 +217,9 @@ main div .separado {
   display: none; }
 
 .experiencias {
-  text-align: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center; }
 
 .experiencias img {
@@ -308,7 +275,7 @@ main div .separado {
   height: 100%; }
 
 main .formulario {
-  background: linear-gradient(to bottom, #e08670, #e9b59b);
+  background: linear-gradient(to bottom, #e08f7b, #eabea8);
   max-width: 400px;
   margin: 0 auto 15px;
   padding: 20px;
@@ -319,7 +286,7 @@ main .formulario {
     display: grid;
     justify-items: center; }
   main .formulario .button-mensaje {
-    background-color: #e88b73;
+    background-color: #e08f7b;
     border: none;
     padding: 10px 20px;
     border-radius: 5px; }

@@ -19,7 +19,7 @@ main {
     margin: 0 10px;
     border-radius: 10px;
     border-style: groove;
-    border-color: rgb(253, 201, 192);
+    border-color: $color-border;
   }
 
   div .separado {
@@ -27,9 +27,8 @@ main {
   }
 }
 .experiencias {
+  @include flex(column);
   text-align: center;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -44,7 +43,7 @@ main {
   margin: 10px;
   border-radius: 10px;
   border-style: groove;
-  border-color: rgb(253, 201, 192);
+  border-color: $color-border;
 }
 
 @media screen and (min-width: 600px) {
@@ -66,8 +65,7 @@ main {
     display: none;
   }
   .experiencias {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    @include grid-template(repeat(2, 1fr));
   }
   .experiencias img {
     width: 90%;
@@ -92,7 +90,6 @@ main {
     }
   }
   .experiencias {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    @include grid-template(repeat(4, 1fr));
   }
 }

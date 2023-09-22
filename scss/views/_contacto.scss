@@ -4,7 +4,7 @@
 
 main {
   .formulario {
-    background: linear-gradient(to bottom, #e08670, #e9b59b);
+    background: linear-gradient(to bottom, $color-form, #eabea8);
     max-width: 400px;
     margin: 0 auto 15px;
     padding: 20px;
@@ -17,7 +17,7 @@ main {
     }
 
     .button-mensaje {
-      background-color: #e88b73;
+      background-color: $color-form;
       border: none;
       padding: 10px 20px;
       border-radius: 5px;
