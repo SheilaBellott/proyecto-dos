@@ -1,13 +1,12 @@
 footer {
-  height: 9.4rem;
   background-color: $color-nav-footer;
   position: relative;
   text-align: end;
 
-  .img-footer {
-    width: 4rem;
-    padding: 0 5px;
-    padding-top: 10px;
+  img {
+    width: 3rem;
+
+    margin: 5px 10px;
   }
   .redes {
     display: flex;
@@ -18,23 +17,13 @@ footer {
   p {
     text-align: center;
     font-size: 13px;
-    position: relative;
+
     margin: 0;
-    top: 14px;
   }
 
   @media screen and (min-width: 600px) {
-    .img-footer {
-      position: absolute;
-      margin: 60px;
+    img:hover {
+      width: 2.5rem;
     }
-    .img-footer:hover {
-      width: 3.2rem;
-    }
-
-    /*
-    p {
-      top: 35px;
-    }*/
   }
 }

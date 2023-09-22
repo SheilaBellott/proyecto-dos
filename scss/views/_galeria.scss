@@ -12,16 +12,7 @@
     margin: 0px 10px;
     padding: 0 5px;
   }
-  .img-grid {
-    display: none;
-  }
-  .img-france {
-    display: none;
-  }
-  .img-rome {
-    display: none;
-  }
-  .img-brasil {
+  .none-galeria {
     display: none;
   }
   @media screen and (min-width: 600px) {
@@ -42,26 +33,10 @@
       object-fit: cover;
       padding: 5px;
     }
-    div .italy {
+    div .italy,
+    div .span {
       display: grid;
       grid-column: span 2;
-    }
-    .italy-span {
-      display: grid;
-      grid-column: span 2;
-    }
-
-    .img-france {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      margin: 30px;
-    }
-    .img-france img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      padding: 5px;
     }
     .france-span {
       display: grid;
@@ -71,18 +46,6 @@
       display: grid;
       grid-row: span 2;
     }
-    .img-rome {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      margin: 30px;
-    }
-    .img-rome img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      padding: 5px;
-    }
     .rome-span {
       display: grid;
       grid-column: span 2;
@@ -90,18 +53,6 @@
     .rome1-span {
       display: grid;
       grid-column: span 2;
-    }
-    .img-brasil {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      margin: 30px;
-    }
-    .img-brasil img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      padding: 5px;
     }
     .brs-span {
       display: grid;
@@ -113,10 +64,7 @@
     }
   }
   @media screen and (min-width: 1024px) {
-    .img-grid,
-    .img-france,
-    .img-rome,
-    .img-brasil {
+    .img-grid {
       margin: 30px 150px;
     }
     .img-grid {
@@ -137,26 +85,9 @@
       display: grid;
       grid-column: span 3;
     }
-    .italy-span {
+    .italy-uno {
       display: grid;
       grid-column: span 2;
-    }
-    .italy1 {
-      display: grid;
-      grid-column: span 2;
-    }
-    .img-france {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      margin: 50px;
-      padding: 20px;
-    }
-    .img-france img {
-      width: 100%;
-      height: 35rem;
-      object-fit: cover;
-      padding: 5px;
     }
 
     .france2 {
@@ -168,41 +99,17 @@
     #france-1 {
       height: 100%;
     }
-
-    .img-rome {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      margin: 50px;
-      padding: 20px;
-    }
-    .img-rome img {
-      width: 100%;
-      height: 35rem;
-      object-fit: cover;
-      padding: 5px;
-    }
     .rome-span {
       display: grid;
-      grid-column: span 3;
+      grid-column: span 2;
     }
     .rome1-span {
       display: grid;
       grid-column: span 3;
     }
-
-    .img-brasil {
+    .rome3 {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      margin: 50px;
-      padding: 20px;
-    }
-    .img-brasil img {
-      width: 100%;
-      height: 35rem;
-      object-fit: cover;
-      padding: 5px;
+      grid-column: span 2;
     }
     #brs-uno {
       height: 100%;

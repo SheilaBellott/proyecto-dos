@@ -10,11 +10,7 @@ main {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px black;
-
-    .name,
-    .surname,
-    .email,
-    .message {
+    .input-form {
       font-size: 13px;
       display: grid;
       justify-items: center;
@@ -45,8 +41,9 @@ main {
     width: 80%;
     margin-bottom: 10px;
     border-radius: 5%;
-
-    @media screen and (min-width: 1024px) {
+  }
+  @media screen and (min-width: 1024px) {
+    .maps {
       height: 410px;
       width: 80%;
       margin-bottom: 10px;

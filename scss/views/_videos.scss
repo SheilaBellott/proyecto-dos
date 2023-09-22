@@ -3,10 +3,7 @@
 }
 
 main {
-  .video-uno,
-  .video-dos,
-  .video-tres,
-  .video-cuatro {
+  .estilo-video {
     @include medidas-videos(22rem, 10px 20px);
   }
 
@@ -28,10 +25,7 @@ main {
       margin: 2rem;
     }
 
-    .video-uno,
-    .video-dos,
-    .video-tres,
-    .video-cuatro {
+    .estilo-video {
       @include medidas-videos(30rem, 0.5rem);
       margin-bottom: 15px;
       padding: 0.5rem;
@@ -56,9 +50,7 @@ main {
       padding-right: 5px;
     }
 
-    .video-dos,
-    .video-tres,
-    .video-cuatro {
+    .mq-desktop {
       @include medidas-videos(40rem, 0);
       width: 100%;
       margin-top: 12px;
