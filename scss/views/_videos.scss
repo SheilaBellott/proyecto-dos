@@ -25,6 +25,7 @@ main {
   @media screen and (min-width: 600px) {
     .contenedor {
       @include videos-template(100%, repeat(2, 1fr), repeat(2, 1fr));
+      margin: 2rem;
     }
 
     .video-uno,
@@ -33,19 +34,21 @@ main {
     .video-cuatro {
       @include medidas-videos(30rem, 0.5rem);
       margin-bottom: 15px;
+      padding: 0.5rem;
     }
   }
 
-  @media screen and (min-width: 992px) {
+  @media screen and (min-width: 1400px) {
     .contenedor {
       @include videos-template(100%, repeat(3, 1fr), repeat(3, 1fr));
-      margin: 2rem;
+      margin: 3rem 8rem;
     }
 
     .video-uno {
       @include medidas-videos(82rem, 0);
       grid-column: span 3;
       grid-row: span 2;
+      padding-bottom: 1rem;
     }
 
     .video-tres {

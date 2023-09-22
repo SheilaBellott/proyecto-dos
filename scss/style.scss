@@ -17,19 +17,12 @@ body {
 }
 
 .body-gradient {
-  background-image: linear-gradient(
-    to bottom,
-    #f2e0fb,
-    #e6cff1,
-    #d9bfe7,
-    #cdafdd,
-    #c09fd3
-  );
+  background-image: linear-gradient(to bottom, #ffb4a2, #ffcdb2);
 }
 .text-center {
   text-align: center;
   font-size: 18px;
-  margin: 20px 20px;
-  background-color: #bb90d6;
+  margin: 2rem 8rem;
+  background-color: #ee9c87;
   color: rgb(0, 0, 0);
 }

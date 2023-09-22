@@ -1,32 +1,18 @@
 footer {
-  height: 6.6rem;
+  height: 9.4rem;
   background-color: $color-nav-footer;
   position: relative;
   text-align: end;
 
-  .img-fb {
-    @include footer-img(20px, 29px, 54px);
+  .img-footer {
+    width: 4rem;
+    padding: 0 5px;
+    padding-top: 10px;
   }
-
-  .img-wsp {
-    @include footer-img(24px, 5px, 78px);
-  }
-
-  ul li {
-    height: 0.1vh;
-    list-style-type: none;
-    font-size: 12px;
-  }
-
-  .wsp-link {
-    @include footer-link(15px, 13px);
-    color: black;
-  }
-
-  .fb-link {
-    @include footer-link(0px, 4px);
-    top: 10px;
-    color: black;
+  .redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   p {
@@ -38,33 +24,17 @@ footer {
   }
 
   @media screen and (min-width: 600px) {
-    .img-wsp {
-      @include mq-footer(3.2rem, 1s, 3px);
+    .img-footer {
+      position: absolute;
+      margin: 60px;
+    }
+    .img-footer:hover {
+      width: 3.2rem;
     }
 
-    .img-wsp:hover {
-      width: 2.5rem;
-    }
-
-    .img-fb {
-      @include mq-footer(2.5rem, 1s, 36px);
-      right: 82px;
-    }
-
-    .img-fb:hover {
-      width: 1.8rem;
-    }
-
+    /*
     p {
       top: 35px;
-    }
-
-    .wsp-link {
-      @include posicion-link(8px, 12px);
-    }
-
-    .fb-link {
-      @include posicion-link(40px, 4px);
-    }
+    }*/
   }
 }

@@ -4,12 +4,12 @@
 
 main {
   .formulario {
-    background: linear-gradient(to bottom, #caa6e2, #a069dc);
+    background: linear-gradient(to bottom, #e08670, #e9b59b);
     max-width: 400px;
     margin: 0 auto 15px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #000000;
+    box-shadow: 0px 0px 10px black;
 
     .name,
     .surname,
@@ -21,7 +21,7 @@ main {
     }
 
     .button-mensaje {
-      background-color: #e0a8ea;
+      background-color: #e88b73;
       border: none;
       padding: 10px 20px;
       border-radius: 5px;
@@ -30,7 +30,7 @@ main {
 }
 
 #fondo-contacto {
-  background-image: url(../img/fondo-contacto.png);
+  background-image: url(../img/fondo4.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;

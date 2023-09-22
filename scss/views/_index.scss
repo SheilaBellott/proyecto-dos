@@ -2,7 +2,8 @@ main {
   height: 100vh;
 }
 
-main .img-italy {
+main .img-tablet,
+main .img-desktop {
   display: none;
 }
 
@@ -22,7 +23,16 @@ main .title-sbf-dos {
     display: none;
   }
 
-  main .img-italy {
+  main .img-tablet {
+    display: block;
+    @include medidas-base;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main .img-tablet {
+    display: none;
+  }
+  main .img-desktop {
     display: block;
     @include medidas-base;
   }
