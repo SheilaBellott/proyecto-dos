@@ -23,7 +23,7 @@ footer {
 
   @media screen and (min-width: 600px) {
     img:hover {
-      width: 2.5rem;
+      transform: scale(0.8);
     }
   }
 }
